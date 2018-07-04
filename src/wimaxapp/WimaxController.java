@@ -355,6 +355,9 @@ public class WimaxController implements Initializable {
         BEPOOL2.clear();
         cycle.clear();
         BandWidth.clear();
+        StatisticsBC.getData().clear();
+        DataTable.clear();
+        DataTableView.getItems().clear();
     }
     
 }

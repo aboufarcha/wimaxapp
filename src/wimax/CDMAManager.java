@@ -46,7 +46,6 @@ public class CDMAManager {
             int ClasseRandom = random.nextInt(3)+1;
             User u = new User(ClasseRandom);
             AllUsers.add(u);
-            
         }
     // ADDING USERS WHO ARE IN COLLUSION IN LAST CYCLE
         if(!UsersCollision.isEmpty()){
@@ -59,7 +58,6 @@ public class CDMAManager {
                             case 2 : Statistics.SurrendedNRTNumber++;break;
                             case 3 : Statistics.SurrendedBENumber++;break;
                         }
-                       
                     }else{
                        AllUsers.add(u);
                     }
@@ -84,13 +82,11 @@ public class CDMAManager {
                     }
                 }
             }
-        
         }
    }
- 
+   
 /*------------------ THIS METHOD FOR GENERATING THE CDMA ----------------------------------------------*/
    public void UsersCDMA(int RTCDMAINT1,int RTCDMAINT2,int NRTCDMAINT1,int NRTCDMAINT2,int BECDMAINT1,int BECDMAINT2){
-        
        Random random = new Random();
         for(User u : AllUsers){         
                 switch(u.getClasse()){
