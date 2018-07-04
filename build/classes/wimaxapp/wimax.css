@@ -1,0 +1,77 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.parent{
+    -fx-background-color: #fff;
+}
+.sidebar{
+    
+    -fx-background-color: #333645;
+}
+
+
+.btns {
+    -fx-background-color: transparent;
+}
+.btns:hover {
+     -fx-background-color: #B8BBBC;
+}
+
+.box{
+    -fx-border-color: #7C8184;
+    -fx-border-width:1px  0px 0px 0px;
+}
+
+.getStarted{
+    -fx-background-color: #00A2D5;
+     -fx-background-radius: 10px;
+    
+}
+.getStarted:hover{
+    -fx-background-color: #28BADB;
+    -fx-background-radius: 10px;
+    
+}
+
+.close{
+     -fx-background-color: transparent;
+}
+
+.top{
+    -fx-border-color: #F41111;
+    -fx-border-width:4px  4px 4px 4px;
+}
+
+.ic{
+    -fx-fill:#FFFFFF;
+    
+}
+.btns:hover .ic{
+    -fx-fill:#F2F2F2;
+}
+.cadr-01{
+    -fx-background-color:rgba(0,162,211,0.3);
+}
+
+.round-box{
+    -fx-background-radius: 100%;
+    -fx-border-radius:100%;
+    -fx-border-width:5px;
+}
+.cadr-02{
+    -fx-background-color:rgba(102,252,194);
+}
+.cadr-03{
+     -fx-background-color:rgba(253,222,211);
+}
+.progress-03{
+    -fx-progress-color:  #fcccba;
+}
+.progress-02{
+    -fx-progress-color: #00e18a;
+}
+
+.progress-01{
+    -fx-progress-color: #72D3FE;
+}
